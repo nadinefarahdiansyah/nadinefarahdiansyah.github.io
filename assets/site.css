@@ -202,7 +202,8 @@ section { padding: 6.5rem 0; }
 .hero-eyebrow { display: inline-flex; align-items: center; gap: 0.55rem; font-family: var(--font-mono); font-size: 0.78rem; font-weight: 500; color: var(--text); padding: 0.45rem 1rem; border-radius: var(--radius-pill); margin-bottom: 1.6rem; background: var(--glass); border: 1px solid var(--glass-border); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
 .hero-eyebrow .dot, .fv-badge .dot { width: 8px; height: 8px; border-radius: 50%; background: #4ade80; box-shadow: 0 0 10px #4ade80; animation: pulse 2s infinite; }
 @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1);} 50% { opacity: 0.4; transform: scale(0.7);} }
-.hero-title { font-family: var(--font-display); font-size: clamp(2.2rem, 4.6vw, 3.9rem); font-weight: 800; line-height: 1.0; letter-spacing: -0.04em; margin-bottom: 1.6rem; }
+/* Sized so the longest word ("Farahdiansyah", ≈11.6em wide in Syne) always fits its column */
+.hero-title { font-family: var(--font-display); font-size: clamp(2.2rem, 3.8vw, 3.1rem); font-weight: 800; line-height: 1.0; letter-spacing: -0.04em; margin-bottom: 1.6rem; }
 .hero-title .outline { -webkit-text-stroke: 1.6px var(--accent); color: transparent; -webkit-text-fill-color: transparent; }
 .hero-desc { font-size: 1.12rem; color: var(--text-2); max-width: 520px; margin-bottom: 2.4rem; line-height: 1.75; }
 .hero-desc strong { color: var(--text); font-weight: 600; }
@@ -518,6 +519,7 @@ footer { padding: 2.5rem 0 3rem; border-top: 1px solid var(--glass-border); disp
 /* ── RESPONSIVE ── */
 @media (max-width: 980px) {
   .hero { grid-template-columns: 1fr; gap: 2.5rem; padding-top: 110px; min-height: auto; }
+  .hero-title { font-size: clamp(2.2rem, 7.6vw, 3.6rem); }
   .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .featured { grid-template-columns: 1fr; }
   .featured-visual { min-height: 300px; }
