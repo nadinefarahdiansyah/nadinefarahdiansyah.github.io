@@ -1,0 +1,5 @@
+# Local-only files — not part of the published site
+PERENCANAAN.md
+.claude/
+desktop.ini
+Thumbs.db

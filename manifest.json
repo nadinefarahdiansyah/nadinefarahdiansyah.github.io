@@ -1,0 +1,14 @@
+{
+  "name": "Nadine Azzadiena Farahdiansyah — Portfolio",
+  "short_name": "Nadine",
+  "description": "Graphic & UI/UX Designer — Digital Innovation, ITS Surabaya",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#060611",
+  "theme_color": "#060611",
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
